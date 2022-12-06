@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,'BlinkMacSystemFont';
+}
+
+@font-face {
+    font-family: rickAndMortyFont;
+    src: url(/rick-and-morty-font/get-schwifty.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#000000  ;
+}
+
+.title{
+    color: #00ff37;
+    margin: 10px;
+    font-size: 80px;
+    font-family: rickAndMortyFont;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.Buscador{
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-color: #00ff37;   
+    width: 500px;
+    border-radius: 15px;
+    border: transparent;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    margin: 15px;
+}
+
+.h1-img{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rem;
+    width: 100%;
+}
+
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    padding-bottom: 100px;
+}
+
+.container-personajes{
+    background-color: #33FFFF;
+}
+
+.image-container{
+    display: flex;
+}
+.image-container img{
+    width: 50%;
+}
+
+article{
+    padding: 10px;
+    flex-direction:column;
+    text-align: center;
+    background-color: #000000 ;
+    color: #00ff37 ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+p{
+    background: #a4fdf1;
+    font-weight: bold;
+    padding: 30px;
+    border-left:8px solid rgb(243, 132, 132);
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    border-radius: 55px;
+    padding-left: 620px;
+}
